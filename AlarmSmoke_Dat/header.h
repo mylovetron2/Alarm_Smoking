@@ -14,4 +14,7 @@ Ticker tk_display;
 Ticker tk_read_sensor;
 
 int sensor1=0,sensor2=0,sensor3=0;
+const uint8_t P[] = {
+    SEG_A | SEG_B | SEG_E | SEG_F | SEG_G            // E
+};
 
